@@ -1,16 +1,16 @@
 $(function){
 let imagesData [{
-    photo: 'images\0ef9b9b86ac09b7f30de13a61ef80f0e.jpg'
+    photo: 'images/0ef9b9b86ac09b7f30de13a61ef80f0e.jpg'
     title: 'baba1'
     desc: 'kicsi baba deszép 1'
 }
 {
-    photo: 'images\104944-dove-bird-4k.jpg'
+    photo: 'images/104944-dove-bird-4k.jpg'
     title: 'baba2'
     desc: 'kicsi baba deszép 2'
 }
 {
-    photo: 'images\4505693-dove-birds-street-humor-pigeons.jpg'
+    photo: 'images/4505693-dove-birds-street-humor-pigeons.jpg'
     title: 'baba3'
     desc: 'kicsi baba deszép 3'
 }

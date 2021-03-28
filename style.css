@@ -2,6 +2,7 @@ body{
     height: 100vh;
     background: linear-gradient(gray pink gray);
     display: flex;
+    margin: 0;
 }
 main{
     width: 100%;
@@ -15,7 +16,6 @@ main{
     height: 50%;
     margin: auto;
     display: flex;
-    border-radius: 10px;
 }
 #prev {
     height: 100%;
@@ -54,7 +54,8 @@ main{
     width: 90%;
 }
 .photo{
-    
+    height: 100%;
+    width: 100%;
 }
 .thumbnails{
     width: 80%;

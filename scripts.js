@@ -14,6 +14,26 @@ let imagesData = [{
     photo: 'images/4505693-dove-birds-street-humor-pigeons.jpg',
     title: 'baba3',
     desc: 'kicsi baba deszép 3',
+},
+{
+    photo: 'images/Animal-Dove-love-bird-couple-cute-pictures-2560x1685-620x408.jpg',
+    title: 'baba4',
+    desc: 'kicsi baba deszép 4',
+},
+{
+  photo: 'images/dove-3268965_1920-1500x1000.jpg',
+  title: 'baba5',
+  desc: 'kicsi baba deszép 5',
+},
+{
+  photo: 'images/dove-wallpaper-2560x1600-852_7.jpg',
+  title: 'baba6',
+  desc: 'kicsi baba deszép 6',
+},
+{
+  photo: 'images/Dove-Wallpapers-HD-620x446.jpg',
+  title: 'baba7',
+  desc: 'kicsi baba deszép 7',
 }];
 
 let loadPhoto = (photoNumber) => {
@@ -44,7 +64,7 @@ imagesData.forEach((item, index) => {
   });
 });
 imagesData.forEach((item, index) => {
-  $('.thumbnail').append(`<div class='minititle' data-number='${index}'>
+  $(`.thumbnail[data-number='${photoNumber}']`).append(`<div class='minititle' data-number='${index}'>
   ${item.title}
   </div>`)
 });
